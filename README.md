@@ -1,16 +1,18 @@
 # JKFLIPFLOP-USING-IF-ELSE
+### DEVELOPED BY: MOPURI ANKITHA
+### REG NO: 212223040117
 
-**AIM:** 
+## AIM:
 
 To implement  JK flipflop using verilog and validating their functionality using their functional tables
 
-**SOFTWARE REQUIRED:**
+## SOFTWARE REQUIRED:
 
 Quartus prime
 
-**THEORY**
+## THEORY:
 
-**JK Flip-Flop**
+## JK Flip-Flop:
 
 JK flip-flop is the modified version of SR flip-flop. It operates with only positive clock transitions or negative clock transitions. The circuit diagram of JK flip-flop is shown in the following figure.
 
@@ -32,9 +34,7 @@ By using three variable K-Map, we can get the simplified expression for next sta
 
 The maximum possible groupings of adjacent ones are already shown in the figure. Therefore, the simplified expression for next state Qt+1t+1 is Q(t+1)=JQ(t)′+K′Q(t)Q(t+1)=JQ(t)′+K′Q(t)
 
-**Procedure**
-
-/* write all the steps invloved */
+## Procedure:
 ```
 1.Go to quartus software.
 
@@ -49,16 +49,11 @@ The maximum possible groupings of adjacent ones are already shown in the figure.
 6.Run the program.
 ```
 
-**PROGRAM**
+## PROGRAM:
 
-/* Program for flipflops and verify its truth table in quartus using Verilog programming. 
-
-Developed by: MOPURI ANKITHA
-
-RegisterNumber: 212223040117
-*/
+Program for flipflops and verify its truth table in quartus using Verilog programming. 
 ```
-module ex07(q, qb,j,k,clock,reset);
+module JK_FF(q, qb,j,k,clock,reset);
     input j,k,clock,reset;
     output reg q, qb;
 	 
@@ -95,13 +90,14 @@ end
 endmodule
 ```
 
-**RTL LOGIC FOR FLIPFLOPS**
-![image](https://github.com/user-attachments/assets/29397eb0-ab12-4c77-a70b-bd62082fa4ff)
+## RTL LOGIC FOR FLIPFLOPS:
+<img width="697" alt="Exd-07(1)" src="https://github.com/Keerthana-VJ/JKFLIPFLOP-USING-IF-ELSE/assets/149347704/b75455ed-75a6-4b42-a2e1-ca2458793742">
 
 
-**TIMING DIGRAMS FOR FLIP FLOPS**
-![image](https://github.com/user-attachments/assets/1092fbc8-5107-40f9-88b3-bddb17f79fbf)
+## TIMING DIGRAMS FOR FLIP FLOPS:
+<img width="822" alt="Exd-07" src="https://github.com/Keerthana-VJ/JKFLIPFLOP-USING-IF-ELSE/assets/149347704/9350c2aa-a362-47f0-9aba-2446a3d3aa17">
 
 
-**RESULTS**
+## RESULTS:
 Thus the program to implement a JK flipflop using verilog and validating their functionality using their functional tables is successfully completed.
+
